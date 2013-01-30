@@ -1,7 +1,12 @@
 #include <stdio.h>
 
+void helloWorld(){
+	printf("Hello World");
+}
 
 void main(){
-	printf("Hello \n");
+	int counter=0;
+	counter++;
+	if (counter <= 1000) helloWorld();
 
 }
